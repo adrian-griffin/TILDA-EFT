@@ -7,4 +7,4 @@ The installation for Tesseract is very simple, simply run the installation wizar
 
 ![image](https://user-images.githubusercontent.com/71678657/182004398-07148997-80e2-4e1f-8076-3357eae9be9e.png)
 
-![image](https://user-images.githubusercontent.com/71678657/182004399-28f6c606-aa2d-429d-86a2-a3117f7f36ad.png)
+![image](https://user-images.githubusercontent.com/71678657/182004510-788ec98e-1cf4-4c0c-ae4f-0d50f36f0d06.png)
