@@ -5,7 +5,7 @@ Gone are the days of having your friend (or yourself) look up that 22 inch barre
 
 Need to know whether an item you found in raid is used in any quests? Or whether that blue electric drill is still worth at least 10K per slot?
 
-Tilda will automatically scan the item you select, and within less than a second it will return any usefull information you would need at a moment's notice, from the average Flea Market price of said item, to the trader it is best sold to (and the price it sells to them), the price per slot based off of the highest price you can sell for, how many quests the item is used in, and even a quick link to the Tarkov Wiki with the click of a button!
+Tilda will automatically scan the item you select, and within less than a second it will return any useful information you would need at a moment's notice, from the average Flea Market price of said item, to the trader it is best sold to (and the price it sells to them), the price per slot based off of the highest price you can sell for, how many quests the item is used in, and even a quick link to the Tarkov Wiki with the click of a button!
 
 All images and showcases of Tilda in action are below.
 All download and install files are available within the Download folder in this repository.
