@@ -9,10 +9,19 @@ Tilda will automatically scan the item you select, and within less than a second
 
 All images and showcases of Tilda in action are below.
 All download and install files are available within the Download folder in this repository.
-**ALL** code for the project is open source, using ML and computer vision written entirely in Python and C, making the application very quick and incredibly fast at scanning.
+**ALL** code for the project is open source, using Tesseract's machine learning and OpenCV2 and Numpy's computer vision processing, written entirely in Python and C, making the application very quick and incredibly fast at scanning.
 
-## How It Works:
-Tilda has two scan options currently available, though the scan method differs heavily between the two, both use simple screenshots of the EFT application to gather information about the item you are scanning. This does *NOT* in *ANY* way access the game memory or use any other method of information gathering in the same vein, therefore, it hardly can be considered "cheating". Tilda just grabs the information you can already look up about any item for you, and displays it all in one place within seconds.
 
-### Scan Type 1 (Active/Primary Scan)
-The first scan method (referred to as the Active or Primary scan), uses 
+
+## How It Works - Basics:
+First and foremost, it is important to mention that Tilda has two separate scan options currently available, though the scanning and processing method differs heavily between the two, both use simple screenshots of the EFT application to gather information about the item you are scanning. In short, the application takes a screenshot of the EFT application, and then determines the item you are wanting scanned using two different methods. From there, a rather hefty database is searched to find the exact item you are looking for, where it them returns all the juicy information about it within the app's display. 
+
+This does *NOT* in **ANY** way access the game memory or use any other method of information gathering in the same vein, therefore, it can hardly be considered "cheating". Tilda just grabs the information you can already look up on the Tarkov Wiki for you, and displays it all in one place within seconds (rather than having to Alt+Tab and try searching the web).
+
+More information regarding the methods used is readable below, if you are interested or skeptical.
+
+## How to Use Both Scan Types
+#### Scan Type 1 (Active/Primary Scan)
+The first scan method (referred to as the Active or Primary scan), uses the pop-up window that appears after inspecting or double-clicking an item in game. The convenient bit here is that the pop-up always has the search-glass icon in the top left, with the full, unique name of the item just to the right. 
+
+The Active scan uses this in that it
