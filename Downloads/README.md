@@ -8,4 +8,4 @@
 
 ## Download Files:
 
-Tilda All-in-One Installer: [[Download (164 MB)]](https://www.mediafire.com/file/xmkiszcwzo7cs8j/tesseract-ocr-w64-setup-v5.1.0.20220510.exe/file)
+Tilda All-in-One Installer: [[Download (164 MB)]](https://www.mediafire.com/file/zz44h0y9qbjjzfn/Tilda_Setup.zip/file)
