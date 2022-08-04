@@ -8,4 +8,4 @@
 
 ## Download Files:
 
-Tilda All-in-One Installer: [[Download (164 MB)]](https://drive.google.com/file/d/1miqhpC3Otw390jQOLf1beV2aV8MYmY1q/view?usp=sharing)
+Tilda All-in-One Installer: [[Download (164 MB)]](https://www.mediafire.com/file/9s632shwqj3mbw1/Tilda_AIO.zip/file)
