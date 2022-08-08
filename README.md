@@ -30,11 +30,11 @@ The Active scan uses this search-glass icon to 'template' search the screenshot,
 
 The default keybind for this scan is the '~' key, or the key directly above tab. You may need to unbind this key from console in the EFT settings menu.
 
-Active scan using the pop-up window with the auto-inspect and scan option enabled in the settings
+#### Active scan using the pop-up window with the auto-inspect and scan option enabled in the settings
 
 ![alt text](https://github.com/adrian-griffin/TILDA-EFT/blob/main/Showcase%20Media/ActiveWAutoInspect.gif)
 
-Active scan using the pop-up window without auto-inspect enabled, requiring manual double click and pressing of 'escape' afterwards
+#### Active scan using the pop-up window without auto-inspect enabled, requiring manual double click and pressing of 'escape' afterwards
 
 ![alt text](https://github.com/adrian-griffin/TILDA-EFT/blob/main/Showcase%20Media/ActiveWOAutoInspect.gif)
 
@@ -42,7 +42,7 @@ Active scan using the pop-up window without auto-inspect enabled, requiring manu
 #### Scan Type 2 (Passive/Secondary Scan)
 Passive scans use the tool-tip-esque pop-up that appears after hovering over an item for about 1 second in game to identify the item. When using this, it is important to note that the scan must be started *before* the tooltip appears, and to wait until the scan completes before moving the mouse away from the item.
 
-The default keybind for this scan is 'Ctrl+Shift+S'
+#### The default keybind for this scan is 'Ctrl+Shift+S'
 ![alt text](https://github.com/adrian-griffin/TILDA-EFT/blob/main/Showcase%20Media/Passive.gif)
 
 ## Overlay Mode & Window Persistence 
