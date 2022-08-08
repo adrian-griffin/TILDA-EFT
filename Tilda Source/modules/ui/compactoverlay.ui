@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>316</width>
+    <width>291</width>
     <height>107</height>
    </rect>
   </property>
@@ -36,8 +36,14 @@
    <iconset>
     <normaloff>../../../../../../Desktop/Poisk-0.8.3/icon.ico</normaloff>../../../../../../Desktop/Poisk-0.8.3/icon.ico</iconset>
   </property>
+  <property name="windowOpacity">
+   <double>0.940000000000000</double>
+  </property>
   <property name="styleSheet">
-   <string notr="true">border: none;</string>
+   <string notr="true">QWindow{
+border: none;
+
+}</string>
   </property>
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>false</bool>
@@ -46,7 +52,6 @@
    <property name="styleSheet">
     <string notr="true">QFrame {
 background-color: rgb(13, 12, 23);
-border: none;
 font: 12pt &quot;DM Sans&quot;;
 
 }

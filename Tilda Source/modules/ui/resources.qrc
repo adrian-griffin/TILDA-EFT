@@ -19,10 +19,10 @@
     <file>ui_elements/media/wiki_external.ico</file>
   </qresource>
   <qresource prefix="tertiary_ui_elems">
+    <file>ui_elements/media/paypal.ico</file>
     <file>ui_elements/media/apply.ico</file>
     <file>ui_elements/media/discord_ico.ico</file>
     <file>ui_elements/media/github.ico</file>
-    <file>ui_elements/media/paypal.ico</file>
     <file>ui_elements/media/return.ico</file>
     <file>ui_elements/media/update.ico</file>
     <file>ui_elements/media/white_arrow_right.png</file>

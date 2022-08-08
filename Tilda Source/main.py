@@ -1,4 +1,5 @@
 # IMPORT GUI AND MODULES
+from ensurepip import version
 from logging import shutdown
 import shutil
 import sys
@@ -29,7 +30,16 @@ import prefs_reader, prefs_writer
 
 ## Version Number:
 global tilda_version
-tilda_version = '0.9.45'
+dir_path = os.path.dirname(os.path.realpath(__file__))
+dir_path_cleaned = dir_path.replace("\\","/")
+dir_path_usable = dir_path_cleaned+"/"
+if os.path.exists(dir_path_usable+"/version.txt"):
+        with open(dir_path_cleaned+"/version.txt", 'r') as file:
+                tilda_version_pulled = file.read().rstrip()
+else:
+        pass
+
+tilda_version = tilda_version_pulled
 
 
 import os 
@@ -364,6 +374,12 @@ class Window(QMainWindow, main_tilda_ui.Ui_MainWindow):
                 import webbrowser
                 webbrowser.open(''+str("https://paypal.me/adriangriffin99"), new=2)
 
+        def open_settings_ini_file(self):
+                dir_path = os.path.dirname(os.path.realpath(__file__))
+        dir_path_cleaned = dir_path.replace("\\","/")
+        dir_path_usable = dir_path_cleaned+"/"
+        os.startfile(dir_path_usable+'/settings.ini')
+
         self.exit_button.clicked.connect(self.exit_app)
         self.minimize_button.clicked.connect(self.minimize_app)
         self.settings_button.clicked.connect(self.open_settings)
@@ -379,6 +395,7 @@ class Window(QMainWindow, main_tilda_ui.Ui_MainWindow):
         self.hotkey_help_btn.clicked.connect(self.check_for_updates)
         self.pushButton.clicked.connect(launch_git_link)
         self.pushButton_2.clicked.connect(launch_paypal_link)
+        self.pushButton_4.clicked.connect(open_settings_ini_file)
         #self.page_widget.currentChanged.connect(self.bootup_proc)
         self.setWindowFlags(
                 Qt.FramelessWindowHint  
@@ -781,6 +798,7 @@ class SMM(QMainWindow, compact_overlay_ui.Ui_smm_window):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setupUi(self)
+        import prefs_reader
         title = "Tilda"
         self.setWindowTitle(title)
         if prefs_reader.read_pref_graphics("KeepOverlayWindowOnTop") == "True":
@@ -902,4 +920,4 @@ if __name__ == "__main__":
         bg_main_application_controller_thread.start()
         global cached_session_smm_token
         cached_session_smm_token = 0
-        sys.exit(app.exec_())
+        sys.exit(app.exec())
