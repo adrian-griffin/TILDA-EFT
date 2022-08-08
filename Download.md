@@ -1,6 +1,6 @@
 ## Tilda Downloads
 
-Latest Version: [v0.9.41](https://www.mediafire.com/file/84e4aarndtt7p29/Tilda_Setup.zip/file)
+Latest Version: [v0.9.45](https://www.mediafire.com/file/84e4aarndtt7p29/Tilda_Setup.zip/file)
 
 ### Latest Version Important Notes
 - Tilda's default Active scan keybind is "`" (or "~"), the key located above the "Tab" button, you may need to unbind the console from this key in the EFT settings OR change the keybind for the Active scan in Tilda.
