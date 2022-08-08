@@ -30,9 +30,12 @@ The Active scan uses this search-glass icon to 'template' search the screenshot,
 
 The default keybind for this scan is the '~' key, or the key directly above tab. You may need to unbind this key from console in the EFT settings menu.
 
-Active scan using the pop-up window with the auto-inspect and scan option enabled in the settings (1)
-Active scan using the pop-up window without auto-inspect enabled, requiring manual double click and pressing of 'escape' afterwards (2)
+Active scan using the pop-up window with the auto-inspect and scan option enabled in the settings
+
 ![alt text](https://github.com/adrian-griffin/TILDA-EFT/blob/main/Showcase%20Media/ActiveWAutoInspect.gif)
+
+Active scan using the pop-up window without auto-inspect enabled, requiring manual double click and pressing of 'escape' afterwards
+
 ![alt text](https://github.com/adrian-griffin/TILDA-EFT/blob/main/Showcase%20Media/ActiveWOAutoInspect.gif)
 
 
